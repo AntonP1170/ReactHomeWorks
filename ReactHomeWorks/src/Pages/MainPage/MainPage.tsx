@@ -1,5 +1,4 @@
 import style from "./MainPage.module.css";
-import Card from "@/Components/Card/Card.tsx";
 
 const MainPage = () => {
 
