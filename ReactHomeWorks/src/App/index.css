@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
 .container {
     padding: 0 15px;
     margin: 0 auto;
@@ -88,8 +93,6 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
-    place-items: center;
     min-width: 320px;
     min-height: 100vh;
     color: var(--color-text-primary);
