@@ -1,0 +1,7 @@
+.codeBlockContainer{
+    height: 500px;
+    overflow: scroll;
+}
+.codeBlockHeader{
+    color: var(--color-text-primary);
+}

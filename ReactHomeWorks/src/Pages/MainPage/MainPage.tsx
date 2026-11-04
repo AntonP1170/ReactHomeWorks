@@ -10,9 +10,9 @@ const MainPage = () => {
                 <div className="container">
                     <div className={style.CardContainer}>
                         <Card img={"none"}
-                              status={"in progress"}
-                              path={"/homework/react-components"}
-                              title={"React Components"}/>
+                              status={"available"}
+                              path={"/homework/enter-to-react"}
+                              title={"Enter to React"}/>
                     </div>
                 </div>
             </main>

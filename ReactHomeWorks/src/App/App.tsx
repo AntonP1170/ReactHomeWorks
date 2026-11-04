@@ -1,7 +1,7 @@
 import {Route, Routes} from "react-router";
 import MainPage from "@/Pages/MainPage/MainPage.tsx";
 import Header from "@/Components/Header/Header.tsx";
-import ComponentPage from "@/Pages/ComponentPage/ComponentPage.tsx";
+import EnterToReact from "@/Pages/EnterToReact/EnterToReact.tsx";
 
 function App() {
     return (
@@ -9,7 +9,7 @@ function App() {
             <Header/>
             <Routes>
                 <Route path="/" element={<MainPage/>}/>
-                <Route path={"/homework/react-components"} element={<ComponentPage/>}/>
+                <Route path={"/homework/enter-to-react"} element={<EnterToReact/>}/>
             </Routes>
         </>
     );
