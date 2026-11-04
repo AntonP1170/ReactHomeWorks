@@ -1,6 +1,6 @@
 import style from "./Header.module.css"
 import {NavLink} from "react-router";
-import useNameStore from "@/hooks/useNameStore.ts";
+import useNameStore from "@/Hooks/useNameStore.ts";
 import {useShallow} from "zustand/react/shallow";
 import {useEffect} from "react";
 

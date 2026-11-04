@@ -1,6 +1,6 @@
 import {NavLink} from "react-router";
 import style from "./Card.module.css";
-import useNameStore from "@/hooks/useNameStore.ts";
+import useNameStore from "@/Hooks/useNameStore.ts";
 import {useEffect, useState} from "react";
 
 interface CardProps {
