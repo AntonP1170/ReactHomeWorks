@@ -1,6 +1,6 @@
 import style from "./EnterToReact.module.css";
 import CodeBlock from "@/Components/CodeBlock/CodeBlock";
-import enterToReactCode from "./EnterToReactCode";
+import enterToReactCode from "./enterToReactCode";
 
 const EnterToReact = () => {
   return (
