@@ -1,4 +1,4 @@
-const enterToReactCode = `
+const enterToReactPageCode = `
 import style from "./EnterToReact.module.css"
 import CodeBlock from "@/Components/CodeBlock/CodeBlock";
 import componentCode from "./EnterToReact";
@@ -17,4 +17,4 @@ const EnterToReact = () => {
 export default EnterToReact;
 
 `;
-export default enterToReactCode;
+export default enterToReactPageCode;

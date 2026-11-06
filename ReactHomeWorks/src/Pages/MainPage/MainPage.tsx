@@ -11,7 +11,7 @@ const MainPage = () => {
                     <div className={style.CardContainer}>
                         <Card img={"none"}
                               status={"available"}
-                              path={"/homework/enter-to-react"}
+                              path={"/enter-to-react"}
                               title={"Enter to React"}/>
                     </div>
                 </div>
