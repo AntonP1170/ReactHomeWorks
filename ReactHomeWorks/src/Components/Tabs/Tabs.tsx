@@ -3,14 +3,16 @@ import style from "./Tabs.module.css";
 interface IProps {
   title1: string;
   title2: string;
+  state:string;
   change: (val: string) => void;
 }
-const Tabs = ({ title1, title2, change }: IProps) => {
+const Tabs = ({ title1, title2, change,state }: IProps) => {
+
   return (
     <div className={style.TabsContainer}>
-      <div>
-        <button onClick={(e) => change(e.currentTarget.value)}>{title1}</button>
-        <button onClick={(e) => change(e.currentTarget.value)}>{title2}</button>
+      <div className={style.Tabs}>
+        <button disabled={state === title1?true:false} onClick={() => change(title1)}>{title1}</button>
+        <button disabled={state === title2?true:false}  onClick={() => change(title2)}>{title2}</button>
       </div>
     </div>
   );

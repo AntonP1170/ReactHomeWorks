@@ -8,11 +8,13 @@ interface IProps {
 }
 const CodeBlock = ({ code, title }: IProps) => {
   return (
-    <div className={style.codeBlockContainer}>
+    <div>
       <h2 className={style.codeBlockHeader}>{title}</h2>
-      <SyntaxHighlighter language={"tsx"} style={atomDark}>
-        {code}
-      </SyntaxHighlighter>
+      <div className={style.codeContainer}>
+        <SyntaxHighlighter language={"tsx"} style={atomDark}>
+          {code}
+        </SyntaxHighlighter>
+      </div>
     </div>
   );
 };

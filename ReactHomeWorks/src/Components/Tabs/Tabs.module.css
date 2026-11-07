@@ -1,6 +1,14 @@
-.{
+.TabsContainer{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.Tabs{
+    margin-top: 10px;
+    border: 10px;
+}
+.Tabs button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
 }
