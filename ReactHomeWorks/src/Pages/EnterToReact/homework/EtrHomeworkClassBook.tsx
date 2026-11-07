@@ -1,5 +1,4 @@
 import { Component, type ReactNode } from "react";
-import style from "../EnterToReactPage.module.css";
 
 class EtrHomeworkClassBook extends Component {
   render(): ReactNode {
