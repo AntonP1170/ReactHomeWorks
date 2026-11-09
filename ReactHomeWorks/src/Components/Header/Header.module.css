@@ -9,6 +9,7 @@ header {
     border-radius: 0 0 var(--radius-sm) var(--radius-sm);
     display: flex;
     align-items: center;
+    z-index: 100;
 }
 
 @media (min-width: 375px) {
