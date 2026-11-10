@@ -4,7 +4,11 @@ import useNameStore from "@/Hooks/useNameStore.ts";
 import {useShallow} from "zustand/react/shallow";
 import {useEffect} from "react";
 
-const Header = () => {
+interface Props {
+    nameOfPage: string | null;
+}
+
+const Header = ({nameOfPage}: Props) => {
     const {name, setName} = useNameStore(useShallow((state) => ({name: state.name, setName: state.setName})));
     useEffect(() => {
         console.log("header render");
@@ -15,7 +19,7 @@ const Header = () => {
                 <div className={style.headerContent}>
                     <NavLink to={"/"} className={style.headerNavLink} onClick={() => setName(null)}
                              replace>Homeworks</NavLink>
-                    <h3>{name}</h3>
+                    <h3>{name ? name : nameOfPage}</h3>
                 </div>
             </div>
         </header>

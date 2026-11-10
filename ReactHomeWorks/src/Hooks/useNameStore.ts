@@ -1,4 +1,5 @@
 import {create} from "zustand/react";
+import {createJSONStorage, persist} from "zustand/middleware";
 
 interface state {
     name: string | null;
@@ -14,8 +15,12 @@ interface NameStore extends state, action {
 const initialState = "";
 
 
-const useNameStore = create<NameStore>()((set) => ({
-    name: initialState,
-    setName: (name: string) => set({name: name}),
-}))
+const useNameStore = create<NameStore>()(persist(
+    (set) => ({
+        name: initialState,
+        setName: (name: string) => set({name: name}),
+    }), {
+        name: "nameStore",
+        storage: createJSONStorage(() => sessionStorage),
+    }))
 export default useNameStore;
