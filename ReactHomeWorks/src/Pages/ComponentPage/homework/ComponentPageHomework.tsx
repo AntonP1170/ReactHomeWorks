@@ -33,7 +33,7 @@ const ComponentPageHomework = () => {
             <FavoriteMovie
                 title={"Зелена книга"}
                 director={"Пітер Фарреллі"}
-                poster={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUjozyJ4LYDLnnmQALgNbmSaSaTdeW0o6nqc2bAjX7-A&s=10"}
+                poster={"https://ag.gidonline.fun/imgs/6/5053.jpg"}
                 studio={"Universal Pictures"} year={2018}/>
             <h2>Task 2</h2>
             <PersonalInfo

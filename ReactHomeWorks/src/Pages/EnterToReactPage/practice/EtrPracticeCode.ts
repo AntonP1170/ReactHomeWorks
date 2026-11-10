@@ -1,21 +1,24 @@
 const EtrPracticeCode = `
+import "keen-slider/keen-slider.min.css";
 import style from "../EnterToReactPage.module.css";
+import Carousel from "@/Components/Carousel/Carousel.tsx";
 import EtrHomeworkClassHello from "./EtrPracticeClassHello";
+
+const reactPhotos = [
+  {
+    src: "https://miro.medium.com/v2/resize:fit:1400/1*-l9HwOuRs0pXB7WFydrFOw.png",
+    alt: "react",
+  },
+];
 
 const EtrPractice = () => {
   return (
     <div className={style.PracticeContent}>
       <h2>Task 1</h2>
-      <div className={style.imgContainer}>
-        <img
-          className={style.ReactImg}
-          src="https://miro.medium.com/v2/resize:fit:1400/1*-l9HwOuRs0pXB7WFydrFOw.png"
-          alt="react"
-        />
-      </div>
+      <Carousel photos={reactPhotos} />
       <div className={style.advantagesListsContainer}>
         <div>
-          <h2>Advantages</h2>
+          <h3>Advantages</h3>
           <ul>
             <li>Компонентний підхід</li>
             <li>Висока продуктивність</li>
@@ -39,7 +42,7 @@ const EtrPractice = () => {
         </div>
       </div>
       <h2>Task 2</h2>
-      <h2>Hello,World</h2>
+      <h3>Hello,World</h3>
       <h2>Task 3</h2>
       <EtrHomeworkClassHello />
       <h2>Task 4</h2>
@@ -53,7 +56,6 @@ const EtrPractice = () => {
 };
 
 export default EtrPractice;
-
 `;
 const EtrPracticeClassHelloCode = `
 import { Component, type ReactNode } from "react";

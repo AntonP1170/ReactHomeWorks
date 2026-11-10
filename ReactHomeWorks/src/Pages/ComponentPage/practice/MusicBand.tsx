@@ -1,3 +1,21 @@
+import "keen-slider/keen-slider.min.css";
+import Carousel from "@/Components/Carousel/Carousel.tsx";
+
+const albumImages = [
+  {
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3Tl8SeWT__EfIdt0coYj7V6xFgsN9sCcMStDfvJrrQ&s=10",
+    alt: "bleach",
+  },
+  {
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtU_y0C81RYbg6A9eTEykqIBHRfAkvoSUkBLiKd7ldA&s=10",
+    alt: "Nevermind",
+  },
+  {
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxP6wsH0UsWvx0HvT7BLQqnH6s4t_BhUma3qxZyYFIg&s",
+    alt: "In Utero",
+  },
+];
+
 const MusicBand = () => {
   return (
     <ul>
@@ -20,26 +38,7 @@ const MusicBand = () => {
       </li>
       <li>
         <h4>Album pictures:</h4>
-        <ul>
-          <li>
-            <img
-              alt="bleach"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc3Tl8SeWT__EfIdt0coYj7V6xFgsN9sCcMStDfvJrrQ&s=10"
-            />
-          </li>
-          <li>
-            <img
-              alt="Nevermind"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtU_y0C81RYbg6A9eTEykqIBHRfAkvoSUkBLiKd7ldA&s=10"
-            />
-          </li>
-          <li>
-            <img
-              alt="In Utero"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxP6wsH0UsWvx0HvT7BLQqnH6s4t_BhUma3qxZyYFIg&s"
-            />
-          </li>
-        </ul>
+        <Carousel photos={albumImages} />
       </li>
     </ul>
   );

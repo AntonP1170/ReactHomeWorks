@@ -17,7 +17,7 @@ const MainPage = () => {
                         />
                         <Card
                             img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIeu-at2_ExFfp4Mnw8JLtNjlyocrE5frXjtQQA31h3w&s=10"}
-                            status={"in progress"}
+                            status={"done"}
                             path={"/react-components"}
                             title={"React Components"}
                         />

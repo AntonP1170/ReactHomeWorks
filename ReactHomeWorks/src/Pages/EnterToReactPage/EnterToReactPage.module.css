@@ -3,19 +3,6 @@
 .PracticeContent {
   margin-top: 100px;
 }
-.CityImg {
-  width: 200px;
-  height: 200px;
-}
-.imgContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.ReactImg{
-    width: 700px;
-    height: 400px;
-}
 .advantagesListsContainer{
     width: 100%;
     display: flex;

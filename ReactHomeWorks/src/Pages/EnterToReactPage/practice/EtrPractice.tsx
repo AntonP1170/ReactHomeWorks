@@ -1,17 +1,20 @@
+import "keen-slider/keen-slider.min.css";
 import style from "../EnterToReactPage.module.css";
+import Carousel from "@/Components/Carousel/Carousel.tsx";
 import EtrHomeworkClassHello from "./EtrPracticeClassHello";
+
+const reactPhotos = [
+  {
+    src: "https://miro.medium.com/v2/resize:fit:1400/1*-l9HwOuRs0pXB7WFydrFOw.png",
+    alt: "react",
+  },
+];
 
 const EtrPractice = () => {
   return (
     <div className={style.PracticeContent}>
       <h2>Task 1</h2>
-      <div className={style.imgContainer}>
-        <img
-          className={style.ReactImg}
-          src="https://miro.medium.com/v2/resize:fit:1400/1*-l9HwOuRs0pXB7WFydrFOw.png"
-          alt="react"
-        />
-      </div>
+      <Carousel photos={reactPhotos} />
       <div className={style.advantagesListsContainer}>
         <div>
           <h3>Advantages</h3>
