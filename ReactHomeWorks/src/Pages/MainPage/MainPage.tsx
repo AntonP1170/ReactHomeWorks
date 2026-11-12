@@ -21,6 +21,12 @@ const MainPage = () => {
                             path={"/react-components"}
                             title={"React Components"}
                         />
+                        <Card
+                            img={"https://www.telerik.com/sfimages/default-source/blogs/2023/2023-01/usestate_breakdown.png?sfvrsn=45263ccd_3"}
+                            status={"in progress"}
+                            path={"/react-usestate"}
+                            title={"React useState"}
+                        />
                     </div>
                 </div>
             </main>
