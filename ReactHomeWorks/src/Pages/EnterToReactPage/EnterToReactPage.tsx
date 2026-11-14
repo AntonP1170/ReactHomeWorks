@@ -5,8 +5,6 @@ import { useState } from "react";
 import EtrHomework from "./homework/EtrHomework";
 import Tabs from "@/Components/Tabs/Tabs";
 import EtrPractice from "./practice/EtrPractice";
-import EtrHomeworkCode from "./homework/EtrHomeworkCode";
-import EtrPracticeCode from "./practice/EtrPracticeCode";
 
 const EnterToReactPage = () => {
   const [tab, setTab] = useState<string>("homework");
@@ -25,22 +23,22 @@ const EnterToReactPage = () => {
         <div>
           <CodeBlock
             title="EnterToReactPage.tsx:"
-            code={enterToReactPageCode}
+            code={enterToReactPageCode.EnterToReactPageCode}
           />
         </div>
         {tab === "homework" && (
           <>
             <CodeBlock
               title="EtrHomework.tsx:"
-              code={EtrHomeworkCode.EtrHomeworkCode}
+              code={enterToReactPageCode.EtrHomeworkCode}
             />
             <CodeBlock
-              title="EtrHomework.tsx:"
-              code={EtrHomeworkCode.EtrHomeworkClassCityCode}
+              title="EtrHomeworkClassCity.tsx:"
+              code={enterToReactPageCode.EtrHomeworkClassCityCode}
             />
             <CodeBlock
-              title="EtrHomework.tsx:"
-              code={EtrHomeworkCode.EtrHomeworkClassBook}
+              title="EtrHomeworkClassBook.tsx:"
+              code={enterToReactPageCode.EtrHomeworkClassBookCode}
             />
           </>
         )}
@@ -48,11 +46,11 @@ const EnterToReactPage = () => {
           <>
             <CodeBlock
               title="EtrPractice.tsx:"
-              code={EtrPracticeCode.EtrPracticeCode}
+              code={enterToReactPageCode.EtrPracticeCode}
             />
             <CodeBlock
               title="EtrPracticeClassHello.tsx:"
-              code={EtrPracticeCode.EtrPracticeClassHelloCode}
+              code={enterToReactPageCode.EtrPracticeClassHelloCode}
             />
           </>
         )}
