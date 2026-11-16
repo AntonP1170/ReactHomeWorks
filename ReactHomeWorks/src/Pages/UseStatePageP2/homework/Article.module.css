@@ -1,0 +1,39 @@
+.article {
+    border-radius: 10px;
+    border: 3px solid var(--color-border);
+    padding: 10px;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 320px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.field input,
+.field select,
+.field textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error {
+    margin: 0;
+    color: #dc2626;
+    font-size: 14px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 4px;
+}

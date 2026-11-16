@@ -5,6 +5,7 @@ import EnterToReactPage from "@/Pages/EnterToReactPage/EnterToReactPage";
 import ComponentPage from "@/Pages/ComponentPage/ComponentPage";
 import Footer from "@/Widgets/Footer/Footer.tsx";
 import UseStatePage from "@/Pages/UseStatePage/UseStatePage.tsx";
+import UseStatePageP2 from "@/Pages/UseStatePageP2/UseStatePageP2";
 
 function App() {
     const nameOfpage = sessionStorage.getItem("name");
@@ -16,6 +17,7 @@ function App() {
                 <Route path={"/enter-to-react"} element={<EnterToReactPage/>}/>
                 <Route path={"/react-components"} element={<ComponentPage/>}/>
                 <Route path={"/react-usestate"} element={<UseStatePage/>}/>
+                <Route path={"/react-usestate-p2"} element={<UseStatePageP2/>}/>
             </Routes>
             <Footer/>
         </>

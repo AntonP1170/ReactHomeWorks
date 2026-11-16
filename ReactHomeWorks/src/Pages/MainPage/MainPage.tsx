@@ -23,9 +23,15 @@ const MainPage = () => {
                         />
                         <Card
                             img={"https://www.telerik.com/sfimages/default-source/blogs/2023/2023-01/usestate_breakdown.png?sfvrsn=45263ccd_3"}
-                            status={"in progress"}
+                            status={"done"}
                             path={"/react-usestate"}
                             title={"React useState"}
+                        />
+                        <Card
+                            img={"https://www.telerik.com/sfimages/default-source/blogs/2023/2023-01/usestate_breakdown.png?sfvrsn=45263ccd_3"}
+                            title={"React useState p2"}
+                            status={"done"}
+                            path={"/react-usestate-p2"}
                         />
                     </div>
                 </div>
