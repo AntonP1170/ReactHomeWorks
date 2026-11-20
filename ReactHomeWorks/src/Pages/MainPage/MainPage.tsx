@@ -33,7 +33,8 @@ const MainPage = () => {
                             status={"done"}
                             path={"/react-usestate-p2"}
                         />
-                        <Card title={"React Components p2"} status={"in progress"}
+                        <Card title={"React Components p2"}
+                              status={"done"}
                               img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIeu-at2_ExFfp4Mnw8JLtNjlyocrE5frXjtQQA31h3w&s=10"}
                               path={"/react-components-p2"}/>
                     </div>
