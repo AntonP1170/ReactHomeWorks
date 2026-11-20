@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="140" viewBox="0 0 120 140">
+  <path d="M10 10 H110 V72 Q110 118 60 132 Q10 118 10 72 Z" fill="#0057b7" stroke="#1b3a6b" stroke-width="3"/>
+  <circle cx="60" cy="54" r="10" fill="#ffd700"/>
+  <path d="M30 104 Q36 70 60 66 Q84 70 90 104 Z" fill="#ffd700"/>
+  <path d="M22 84 Q38 56 56 60 L48 74 Z" fill="#ffd700"/>
+  <path d="M98 84 Q82 56 64 60 L72 74 Z" fill="#ffd700"/>
+  <path d="M84 48 L96 36 L92 58 Z" fill="#ffffff"/>
+  <text x="60" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ffffff">КИЇВ</text>
+</svg>

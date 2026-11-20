@@ -1,0 +1,24 @@
+.company {
+    max-width: 700px;
+}
+
+.info ul,
+.employeeList {
+    list-style: none;
+    padding: 0;
+}
+
+.employeeList {
+    display: grid;
+    gap: 8px;
+}
+
+.employee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+    border: 1px solid var(--color-border, #ccc);
+    border-radius: 8px;
+    background-color: var(--color-bg-secondary, transparent);
+}

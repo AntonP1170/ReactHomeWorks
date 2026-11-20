@@ -1,0 +1,26 @@
+.faculty {
+    display: grid;
+    gap: 16px;
+    max-width: 700px;
+}
+
+.info ul,
+.studentList {
+    margin-top: 4px;
+}
+
+.group {
+    padding: 12px;
+    border: 1px solid var(--color-border, #ccc);
+    border-radius: 8px;
+    background-color: var(--color-bg-secondary, transparent);
+}
+
+.group h4,
+.group p {
+    margin: 4px 0;
+}
+
+.studentList {
+    padding-left: 20px;
+}

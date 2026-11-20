@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="140" viewBox="0 0 120 140">
+  <path d="M10 10 H110 V72 Q110 118 60 132 Q10 118 10 72 Z" fill="#0057b7" stroke="#1b3a6b" stroke-width="3"/>
+  <g fill="#ffd700">
+    <circle cx="60" cy="58" r="18"/>
+    <path d="M44 50 L30 38 L48 42 Z"/>
+    <path d="M76 50 L90 38 L72 42 Z"/>
+    <path d="M46 72 L34 84 L54 76 Z"/>
+    <path d="M74 72 L86 84 L66 76 Z"/>
+  </g>
+  <circle cx="54" cy="55" r="2.5" fill="#1b3a6b"/>
+  <circle cx="67" cy="55" r="2.5" fill="#1b3a6b"/>
+  <path d="M55 66 Q60 70 65 66" fill="none" stroke="#1b3a6b" stroke-width="2"/>
+  <path d="M36 108 Q36 82 60 76 Q84 82 84 108 Z" fill="#ffd700"/>
+  <text x="60" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ffffff">ЛЬВІВ</text>
+</svg>
